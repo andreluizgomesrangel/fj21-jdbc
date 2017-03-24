@@ -20,7 +20,9 @@ public class ContatoDao {
 	   private Connection connection;
 	 
 	   public ContatoDao() {
+		   System.out.println("CAAAAAALMAAA AEE!");
 	     this.connection = new ConnectionFactory().getConnection();
+	     System.out.println("CONECTOOOOOOOOOOOOOU!");
 	   }
 	 
 	   public void adiciona(Contato contato) {
